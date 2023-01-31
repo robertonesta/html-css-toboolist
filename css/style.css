@@ -1,9 +1,19 @@
+*{
+    background-color: #f6f8f9;
+}
+
+.bg-color{
+    background-color: #ffffff;
+}
+
 .logo{
+    background-color: #ffffff;
     padding-top: 0.5rem;
     padding-left: 1rem;
 }
 .title{
+    background-color: #ffffff;
     font-size: 2rem;
     font-family: 'Lato', sans-serif;
-    vertical-align: baseline;    
+    vertical-align: baseline;  
 }
