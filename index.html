@@ -8,41 +8,48 @@
     <link rel="stylesheet" href="../html-css-toboolist/css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Lato:wght@900&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Lato:wght@900&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 </head>
 
 <body>
-    <header class="bg-color">
-        <img class="logo" src="../html-css-toboolist/img/Logo.png" alt="logo">
-        <span class="title">Toboolist</span>
+    <header>
+        <div class="logo">
+           <img class="logo_pic" src="../html-css-toboolist/img/Logo.png" alt="main_logo">
+           <span id="textlogo">Toboolist</span> 
+        </div>
     </header>
-
+    
     <main class="main-corp">
         <section>
-            <button>Add Task</button>
-            <button disabled="disabled">Add Section</button>
+            <button class="adding_button">Add Task</button>
+            <button disabled="disabled" class="adding_button">Add Section</button>
         </section>
+        <!--/.adding buttons-->
+
         <section>
             <h4>New Task</h4>
             <div>
-                Quarterly Newsletter <button>Editorial</button>
+                Quarterly Newsletter <button class="radius bg-blue">Editorial</button>
             </div>     
         </section> 
+        <!--/.new task section-->
+
         <section>
             <h4>Today</h4>
             <div>
-                Recruiting blog post <button>Editorial</button>
+                Recruiting blog post <button class="radius bg-blue">Editorial</button>
             </div>
             <div>
-                Mobile app launch <button>Q1 goals</button>
+                Mobile app launch <button class="radius bg-violet">Q1 goals</button>
             </div>
             <div>
-                Interview John H. <button>Recruiting</button>
+                Interview John H. <button class="radius bg-green">Recruiting</button>
             </div>
             <div>
-                Summit update to mobile storefronts <button>Mobile</button>
+                Summit update to mobile storefronts <button class="radius bg-orange">Mobile</button>
             </div>
         </section>
+        <!--/.today section-->
 
         <section>
             <h4>Upcoming</h4>
@@ -50,15 +57,16 @@
                 Schedule meeting with Alex
             </div>
             <div>
-                Homepage refresh <button>Website</button>
+                Homepage refresh <button class="radius bg-purple">Website</button>
             </div>
             <div>
-                Onboard new Sales team members <button>Sales</button>
+                Onboard new Sales team members <button class="radius bg-lightgreen">Sales</button>
             </div>
             <div>
-                Review Editorial Calendar <button>Editorial</button>
+                Review Editorial Calendar <button class="radius bg-blue">Editorial</button>
             </div>
         </section>
+        <!--/.Upcoming section-->
     </main>
     <footer></footer>
 </body>
