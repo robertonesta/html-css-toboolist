@@ -25,9 +25,19 @@ body{
 }
 
 .main-corp{
-    margin-left: 30%;
+    margin-left: 15%;
+    margin-right: 15%;
     margin-top: 2em;
 }
+
+.mainbody{
+    padding-left: 5%;
+    background-color: white;
+    padding-top: 2%;;
+}
+
+.firstbuttons{padding-bottom: 1%;}
+
 .adding_button{
     border-radius: 10px;
 }
